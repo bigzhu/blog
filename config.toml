@@ -29,8 +29,8 @@ disqusShortname = "yourdiscussshortname"
     fixedbarContent = "Do you want to know me more private?→"
     fixedbarContentAfter = "Thank You! Please share it if you like it→"
 
-    hideCredits = false
-    hideCopyright = true
+    hideCredits = true
+    hideCopyright = false
 
     snsShare = false
 
