@@ -3,7 +3,7 @@ title = "BigZhu very big"
 
 theme = "coder-portfolio"
 
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "cn"
 
 paginate = 20
 
@@ -13,6 +13,11 @@ pygmentscodefencesguesssyntax = true
 pygmentsUseClasses = true
 
 disqusShortname = "yourdiscussshortname"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
 
 [params]
     author = "BigZhu"
@@ -25,7 +30,7 @@ disqusShortname = "yourdiscussshortname"
     fixedbarContentAfter = "Thank You! Please share it if you like it→"
 
     hideCredits = false
-    hideCopyright = false
+    hideCopyright = true
 
     snsShare = true
 
@@ -56,35 +61,35 @@ disqusShortname = "yourdiscussshortname"
     url = "https://www.linkedin.com/in/bigzhu/"
 
 [languages]
-    [languages.en]
-        languagecode = "en"
-        languagename = "English" # The language name to be displayed in the selector.
+    [languages.cn]
+        languagecode = "cn"
+        languagename = "Chinese" # The language name to be displayed in the selector.
         title = "BigZhu very old"
 
         # You can configure the theme parameter for each language.
-        [languages.en.params]
+        [languages.cn.params]
             author = "BigZhu"
             info = "WEB AND APPS ENGINEER"
             description = "BigZhu's personal website"
             keywords = "blog,developer,personal,kunming"
 
-        [languages.en.menu] # It is possible to change the menu too.
+        [languages.cn.menu] # It is possible to change the menu too.
 
-            [[languages.en.menu.main]]
+            [[languages.cn.menu.main]]
                 name = "About"
                 weight = 1.0
                 url = "about"
 
-            [[languages.en.menu.main]]
+            [[languages.cn.menu.main]]
                 name = "Blog"
                 weight = 2.0
                 url = "posts"
 
-            [[languages.en.menu.main]]
+            [[languages.cn.menu.main]]
                 name = "Projects"
                 weight = 3
                 url = "projects"
-            [[languages.en.menu.main]]
+            [[languages.cn.menu.main]]
                 name = "Contact me"
                 weight = 5
                 url = "contact"
