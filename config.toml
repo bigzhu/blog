@@ -24,15 +24,15 @@ disqusShortname = "yourdiscussshortname"
     description = "BigZhu's personal website"
     keywords = "blog,developer,personal,kunming"
     info = "WEB AND APPS ENGINEER"
-    avatarurl = "images/avatar.jpg"
-    footercontent = "Enter a text here."
+    avatarurl = "images/avatar.png"
+    footercontent = "昆明真他喵的是个 IT 荒漠!"
     fixedbarContent = "Do you want to know me more private?→"
     fixedbarContentAfter = "Thank You! Please share it if you like it→"
 
     hideCredits = false
     hideCopyright = true
 
-    snsShare = true
+    snsShare = false
 
     thumbnail = "images/tn.png"
 
@@ -55,10 +55,10 @@ disqusShortname = "yourdiscussshortname"
     name = "Twitter"
     weight = 2
     url = "https://twitter.com/bigzhu/"
-[[params.social]]
-    name = "LinkedIn"
-    weight = 3
-    url = "https://www.linkedin.com/in/bigzhu/"
+#[[params.social]]
+#    name = "LinkedIn"
+#    weight = 3
+#    url = "https://www.linkedin.com/in/bigzhu/"
 
 [languages]
     [languages.cn]
