@@ -1,0 +1,120 @@
+baseurl = "http://www.bigzhu.net"
+title = "BigZhu very big"
+
+theme = "coder-portfolio"
+
+DefaultContentLanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsUseClasses = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "BigZhu"
+    description = "BigZhu's personal website"
+    keywords = "blog,developer,personal,kunming"
+    info = "WEB AND APPS ENGINEER"
+    avatarurl = "images/avatar.jpg"
+    footercontent = "Enter a text here."
+    fixedbarContent = "Do you want to know me more private?→"
+    fixedbarContentAfter = "Thank You! Please share it if you like it→"
+
+    hideCredits = false
+    hideCopyright = false
+
+    snsShare = true
+
+    thumbnail = "images/tn.png"
+
+    # Custom CSS
+    custom_css = []
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+
+    langseparator = "|"
+
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/bigzhu/"
+[[params.social]]
+    name = "Twitter"
+    weight = 2
+    url = "https://twitter.com/bigzhu/"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 3
+    url = "https://www.linkedin.com/in/bigzhu/"
+
+[languages]
+    [languages.en]
+        languagecode = "en"
+        languagename = "English" # The language name to be displayed in the selector.
+        title = "BigZhu very old"
+
+        # You can configure the theme parameter for each language.
+        [languages.en.params]
+            author = "BigZhu"
+            info = "WEB AND APPS ENGINEER"
+            description = "BigZhu's personal website"
+            keywords = "blog,developer,personal,kunming"
+
+        [languages.en.menu] # It is possible to change the menu too.
+
+            [[languages.en.menu.main]]
+                name = "About"
+                weight = 1.0
+                url = "about"
+
+            [[languages.en.menu.main]]
+                name = "Blog"
+                weight = 2.0
+                url = "posts"
+
+            [[languages.en.menu.main]]
+                name = "Projects"
+                weight = 3
+                url = "projects"
+            [[languages.en.menu.main]]
+                name = "Contact me"
+                weight = 5
+                url = "contact"
+
+
+    [languages.ja]
+        languagecode = "ja"
+        languagename = "Japanese"
+        title = "朱 一凡"
+
+        [languages.ja.params]
+            author = "朱 一凡"
+            description = "しゅ いちぼん"
+            keywords = "blog,developer,kunming"
+            info = "WEBとアプリのエンジニア"
+
+        [languages.ja.menu]
+            [[languages.ja.menu.main]]
+                name = "テーマについて"
+                weight = 1.0
+                url = "ja/about"
+            [[languages.ja.menu.main]]
+                name = "ブログ"
+                weight = 2.0
+                url = "ja/posts"
+            [[languages.ja.menu.main]]
+                name = "プロジェクト"
+                weight = 3
+                url = "ja/projects"
+            [[languages.ja.menu.main]]
+                name = "お問い合わせ"
+                weight = 5
+                url = "ja/contact"
