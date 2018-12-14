@@ -77,23 +77,19 @@ disqusShortname = "bigzhu"
         [languages.cn.menu] # It is possible to change the menu too.
 
             [[languages.cn.menu.main]]
-                name = "About"
-                weight = 1.0
-                url = "about"
-
-            [[languages.cn.menu.main]]
                 name = "Blog"
-                weight = 2.0
-                url = "posts"
+                weight = 1.0
+                url = "blog"
 
             [[languages.cn.menu.main]]
                 name = "Projects"
-                weight = 3
+                weight = 2.0
                 url = "projects"
+
             [[languages.cn.menu.main]]
-                name = "Contact me"
-                weight = 5
-                url = "contact"
+                name = "About"
+                weight = 3
+                url = "blog/about"
 
 
     [languages.ja]
