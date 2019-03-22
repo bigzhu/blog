@@ -80,15 +80,19 @@ disqusShortname = "bigzhu"
                 name = "Blog"
                 weight = 1.0
                 url = "blog"
+            [[languages.cn.menu.main]]
+                name = "Tips"
+                weight = 2.0
+                url = "tips"
 
             [[languages.cn.menu.main]]
                 name = "Projects"
-                weight = 2.0
+                weight = 3.0
                 url = "projects"
 
             [[languages.cn.menu.main]]
                 name = "About"
-                weight = 3
+                weight = 4.0
                 url = "blog/about"
 
 
