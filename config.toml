@@ -1,6 +1,6 @@
 baseurl = "https://www.bigzhu.net"
 title = "BigZhu very big"
-contentdir="../Mega/blog"
+contentdir="cheese"
 
 theme = "hugo-coder-portfolio"
 
