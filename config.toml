@@ -26,7 +26,7 @@ disqusShortname = "bigzhu"
     description = "BigZhu's personal website"
     keywords = "blog,developer,personal,kunming"
     info = "PROGRAMMER AND FREELANCER"
-    avatarurl = "images/avatar.png"
+    avatarurl = "images/avatar_color.png"
     footercontent = "昆明真他喵的是个 IT 荒漠!"
     fixedbarContent = "Do you want to know me more private?→"
     fixedbarContentAfter = "Thank You! Please share it if you like it→"
@@ -71,7 +71,7 @@ disqusShortname = "bigzhu"
         # You can configure the theme parameter for each language.
         [languages.cn.params]
             author = "BigZhu"
-            info = "WEB AND APPS ENGINEER"
+            info = "PROGRAMMER AND FREELANCER"
             description = "BigZhu's personal website"
             keywords = "blog,developer,personal,kunming"
 
