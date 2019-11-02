@@ -26,7 +26,8 @@ disqusShortname = "bigzhu"
     description = "BigZhu's personal website"
     keywords = "blog,developer,personal,kunming"
     info = "PROGRAMMER AND FREELANCER"
-    avatarurl = "images/avatar_color.png"
+    #avatarurl = "images/avatar_color.png"
+    avatarurl = "images/gou.jpg"
     footercontent = "昆明真他喵的是个 IT 荒漠!"
     fixedbarContent = "Do you want to know me more private?→"
     fixedbarContentAfter = "Thank You! Please share it if you like it→"
@@ -36,7 +37,7 @@ disqusShortname = "bigzhu"
 
     snsShare = false
 
-    thumbnail = "images/tn.png"
+    thumbnail = "images/gou.jpg"
 
     # Custom CSS
     custom_css = []
