@@ -1,4 +1,4 @@
-baseurl = "https://www.bigzhu.net"
+baseurl = "https://bigzhu.net"
 title = "BigZhu very big"
 contentdir="cheese"
 
@@ -89,7 +89,7 @@ disqusShortname = "bigzhu"
             [[languages.cn.menu.main]]
                 name = "Projects"
                 weight = 3.0
-                url = "projects"
+                url = "blog/projects"
 
             [[languages.cn.menu.main]]
                 name = "About"
