@@ -1,5 +1,9 @@
 #! /bin/bash
-cd /Users/bigzhu/blog
-rm -rf ./public
+#! /bin/bash
+SYNC_TO="bigzhu@my.vps:/home/bigzhu/hugo_blog/public"
+rm -rf ./public/*
+DIR="$(dirname "$(readlink -f "$0")")"
+echo $DIR
+cd $DIR
 hugo;
-rsync --delete -rvzt  -e "ssh" ./public/* bigzhu@bigzhu.net:/home/bigzhu/hugo_blog/public --delete-after
+rsync --delete -rvzt  -e "ssh" ./public/* $SYNC_TO --delete-after
