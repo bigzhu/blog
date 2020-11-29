@@ -1,7 +1,7 @@
-baseurl = "https://bigzhu.net"
+baseURL = "https://bigzhu.net"
 title = "BigZhu very big"
 contentdir="cheese"
-
+canonifyURLs=true
 theme = "hugo-coder-portfolio"
 
 DefaultContentLanguage = "cn"
@@ -67,40 +67,78 @@ disqusShortname = "bigzhu"
 #    weight = 3
 #    url = "https://www.linkedin.com/in/bigzhu/"
 
+
+
 [languages]
+    #[languages.en]
+    #    languagecode = "en"
+    #    languagename = "English" # The language name to be displayed in the selector.
+    #    title = "BigZhu very big"
+
+    #    # You can configure the theme parameter for each language.
+    #    [languages.en.params]
+    #        author = "BigZhu"
+    #        info = "PROGRAMMER AND FREELANCER"
+    #        description = "BigZhu's personal website"
+    #        keywords = "blog,developer,personal,kunming"
+
+    #    [languages.en.menu] # It is possible to change the menu too.
+
+    #        [[languages.en.menu.main]]
+    #            name = "Blog"
+    #            weight = 1.0
+    #            url = "blog"
+    #        [[languages.en.menu.main]]
+    #            name = "Tips"
+    #            weight = 2.0
+    #            url = "tips"
+    #        #[[languages.en.menu.main]]
+    #        #    name = "English"
+    #        #    weight = 3.0
+    #        #    url = "english"
+    #        [[languages.en.menu.main]]
+    #            name = "Projects"
+    #            weight = 4.0
+    #            url = "blog/projects"
+    #        [[languages.en.menu.main]]
+    #            name = "About"
+    #            weight = 5.0
+    #            url = "blog/about"
+
     [languages.cn]
         languagecode = "cn"
-        languagename = "Chinese" # The language name to be displayed in the selector.
+        languagename = "中文" # The language name to be displayed in the selector.
         title = "BigZhu very big"
 
         # You can configure the theme parameter for each language.
         [languages.cn.params]
             author = "BigZhu"
-            info = "PROGRAMMER AND FREELANCER"
-            description = "BigZhu's personal website"
-            keywords = "blog,developer,personal,kunming"
+            info = "程序员 打杂的 健身者"
+            description = "大朱的窝: 个人生活, 生活态度, 代码技术的东西很少写了, 毕竟比我强的人太多"
+            keywords = "博客,程序员,生活态度,开挂技巧,健身,自律,英语学习"
 
         [languages.cn.menu] # It is possible to change the menu too.
 
             [[languages.cn.menu.main]]
-                name = "Blog"
+                name = "文章"
                 weight = 1.0
                 url = "blog"
             [[languages.cn.menu.main]]
-                name = "Tips"
+                name = "小技巧"
                 weight = 2.0
                 url = "tips"
-
+            #[[languages.cn.menu.main]]
+            #    name = "英文"
+            #    weight = 3.0
+            #    url = "english"
             [[languages.cn.menu.main]]
-                name = "Projects"
-                weight = 3.0
-                url = "blog/projects"
-
-            [[languages.cn.menu.main]]
-                name = "About"
+                name = "项目"
                 weight = 4.0
+                url = "blog/projects"
+            [[languages.cn.menu.main]]
+                name = "关于我"
+                weight = 5.0
                 url = "blog/about"
-
 
     #[languages.ja]
     #    languagecode = "ja"
