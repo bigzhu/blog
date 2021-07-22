@@ -1,6 +1,7 @@
-baseURL = "https://bigzhu.net"
+#baseURL = "https://bigzhu.net/"
+baseURL = "/"
 title = "BigZhu very big"
-contentdir="cheese"
+contentdir="../cheese"
 canonifyURLs=true
 theme = "hugo-coder-portfolio"
 
